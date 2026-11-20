@@ -48,7 +48,8 @@ Consolidate sales data from the ERP and CRM systems into a single, high-performa
 - **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
 - **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
-- <img width="1544" height="912" alt="data_architecture" src="https://github.com/user-attachments/assets/bb067ef3-1642-481a-848a-d117b084796d" />
+<img width="1542" height="802" alt="data_architecture1" src="https://github.com/user-attachments/assets/b9ff3224-8318-4510-996c-cb6f96c15232" />
+
 
 
 ### Deliverables
