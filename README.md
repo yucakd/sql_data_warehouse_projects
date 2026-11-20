@@ -42,6 +42,13 @@ Consolidate sales data from the ERP and CRM systems into a single, high-performa
 - **Scope Limitation**: only the latest dataset snapshot is handled. Historization and slowly changing dimensions (SCD) are out of scope for this iteration.
 - **Documentation**: the data model schema is documented clearly so that both business stakeholders and analytics teams can understand and use it.
 
+### 🏗️ Data Architecture
+
+**Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+**Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+**Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+
+
 ### Deliverables
 - ETL scripts for ingestion, cleansing, and integration
 - A unified analytical data model
